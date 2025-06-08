@@ -1,0 +1,28 @@
+@media (max-width: 1084px) {
+  .container-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .container-principal img {
+    max-width: 100%;
+  }
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 800px) {
+  .logo {
+    width: 180px;
+  }
+  .description h1 {
+    font-size: 20px;
+  }
+  .description p {
+    font-size: small;
+  }
+}
