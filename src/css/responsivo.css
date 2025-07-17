@@ -7,22 +7,38 @@
     text-align: center;
   }
   .container-principal img {
-    max-width: 100%;
+    width: auto;
+  }
+  .description {
+    width: auto;
   }
   .icons {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
   }
 }
 @media (max-width: 800px) {
+  body {
+    background: url(../img/bg-mobile.svg);
+    background-size: cover;
+    background-color: var(--violet);
+    height: 100%;
+  }
   .logo {
     width: 180px;
+  }
+  .description {
+    width: auto;
   }
   .description h1 {
     font-size: 20px;
   }
   .description p {
     font-size: small;
+  }
+  .icons {
+    margin-top: 0;
   }
 }
